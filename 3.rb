@@ -4,7 +4,7 @@ max = [x, y, z].max
 
 if x == y && y == z
   puts "your the triangle is isosceles and equilateral, but not rectangular"
-elsif (max ** 2) * 2 == x ** 2 + y ** 2 + z ** 2
+elsif (max**2) * 2 == x**2 + y**2 + z**2
   puts "your the triangle is rectangular"
 elsif x == y || y == z || x == z 
   puts "your the triangle is isosceles"
